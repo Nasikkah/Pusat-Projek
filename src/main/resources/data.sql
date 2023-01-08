@@ -1,1 +1,1 @@
-insert into sample_person(version, id,first_name,last_name,email,phone,date_of_birth,occupation,role,important) values (1, 1,'Naufal Al Munawar','Obat Paracetamol','loli@gmail.com','08989788788','1953-06-01','1 kali sehari','Dokter Hasyim',false)
+insert into sample_person(version, id,first_name,last_name,email,phone,date_of_birth,occupation,role,important) values (1, 1,'Beranda nurul hikmah','Galeri','loli@gmail.com','Detail paket','1953-06-01','Nurul Hikmah adalah usaha yang bergerak pada jasa penyewaan','089677745083',false)

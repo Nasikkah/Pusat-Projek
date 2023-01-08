@@ -33,7 +33,7 @@ import java.util.Optional;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.orm.ObjectOptimisticLockingFailureException;
 
-@PageTitle("Monitoring Obat")
+@PageTitle("Nurul Hikmah")
 @Route(value = "master-detail/:samplePersonID?/:action?(edit)", layout = MainLayout.class)
 @RouteAlias(value = "Crud", layout = MainLayout.class)
 @Uses(Icon.class)
@@ -79,11 +79,11 @@ public class MasterDetailView extends Div implements BeforeEnterObserver {
         add(splitLayout);
 
         // Configure Grid
-        grid.addColumn("firstName").setHeader("Jenis Darah").setAutoWidth(true);
-        grid.addColumn("phone").setHeader("Nomer Hp").setAutoWidth(true);
-        grid.addColumn("lastName").setHeader("Jenis Obat").setAutoWidth(true);
-        grid.addColumn("role").setHeader("Dokter").setAutoWidth(true);
-        grid.addColumn("occupation").setHeader("Di minum").setAutoWidth(true);
+        grid.addColumn("firstName").setHeader("Beranda").setAutoWidth(true);
+        grid.addColumn("phone").setHeader("Harga").setAutoWidth(true);
+        grid.addColumn("lastName").setHeader("Galeri").setAutoWidth(true);
+        grid.addColumn("role").setHeader("Kontak").setAutoWidth(true);
+        grid.addColumn("occupation").setHeader("Tentang").setAutoWidth(true);
         LitRenderer<SamplePerson> importantRenderer = LitRenderer.<SamplePerson>of(
                 "<vaadin-icon icon='vaadin:${item.icon}' style='width: var(--lumo-icon-size-s); height: var(--lumo-icon-size-s); color: ${item.color};'></vaadin-icon>")
                 .withProperty("icon", important -> important.isImportant() ? "check" : "minus").withProperty("color",
@@ -170,11 +170,11 @@ public class MasterDetailView extends Div implements BeforeEnterObserver {
         editorLayoutDiv.add(editorDiv);
 
         FormLayout formLayout = new FormLayout();
-        firstName = new TextField("Nama Pasien");
-        phone = new TextField("Nomer Hp");
-        lastName = new TextField("Jenis Obat");
-        role = new TextField("Dokter");
-        occupation = new TextField("Di minum");
+        firstName = new TextField("Nama Pelanggan");
+        phone = new TextField("Nomor Hp");
+        lastName = new TextField("Alamat");
+        role = new TextField("No rekening");
+        occupation = new TextField("Pembayaran");
         important = new Checkbox("Tuntas");
         formLayout.add(firstName, phone, lastName,role,occupation, important);
 

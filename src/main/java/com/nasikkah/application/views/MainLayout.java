@@ -39,7 +39,7 @@ public class MainLayout extends AppLayout {
     }
 
     private void addDrawerContent() {
-        H1 appName = new H1("Obatin");
+        H1 appName = new H1("Wedding Organizer");
         appName.addClassNames(LumoUtility.FontSize.LARGE, LumoUtility.Margin.NONE);
         Header header = new Header(appName);
 
@@ -53,8 +53,8 @@ public class MainLayout extends AppLayout {
         // For documentation, visit https://github.com/vaadin/vcf-nav#readme
         AppNav nav = new AppNav();
 
-        nav.addItem(new AppNavItem("Pasien", MasterDetailView.class, "la la-columns"));
-        nav.addItem(new AppNavItem("Profil", Profil.class, "la la-columns"));
+        nav.addItem(new AppNavItem("Menu", MasterDetailView.class, "la la-columns"));
+        nav.addItem(new AppNavItem("Detail Paket", Profil.class, "la la-columns"));
 
         return nav;
     }

@@ -45,7 +45,7 @@ public class Dasboard extends AppLayout {
         horizontalLayout.setJustifyContentMode(FlexComponent.JustifyContentMode.END);
 
         horizontalLayout.add(regis,Login);
-        H1 title = new H1("Obatin");
+        H1 title = new H1("Wedding Organizer");
         title.getStyle().set("font-size", "var(--lumo-font-size-l)")
                 .set("margin", "var(--lumo-space-m)");
         addToNavbar(title, horizontalLayout);
