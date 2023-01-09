@@ -54,7 +54,7 @@ public class MainLayout extends AppLayout {
         AppNav nav = new AppNav();
 
         nav.addItem(new AppNavItem("Menu", MasterDetailView.class, "la la-columns"));
-        nav.addItem(new AppNavItem("Detail Paket", Profil.class, "la la-columns"));
+        nav.addItem(new AppNavItem("Logout", Profil.class, "la la-columns"));
 
         return nav;
     }
