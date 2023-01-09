@@ -1,4 +1,4 @@
-package com.nasikkah.application.views;
+package com.david.application.views;
 
 import com.vaadin.flow.component.UI;
 import com.vaadin.flow.component.applayout.AppLayout;

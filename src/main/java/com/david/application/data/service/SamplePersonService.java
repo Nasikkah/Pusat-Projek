@@ -1,6 +1,6 @@
-package com.nasikkah.application.data.service;
+package com.david.application.data.service;
 
-import com.nasikkah.application.data.entity.SamplePerson;
+import com.david.application.data.entity.SamplePerson;
 
 import java.util.Optional;
 

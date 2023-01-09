@@ -1,4 +1,4 @@
-package com.nasikkah.application.data.entity;
+package com.david.application.data.entity;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

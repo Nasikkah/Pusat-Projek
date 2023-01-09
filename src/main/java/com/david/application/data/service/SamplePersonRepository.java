@@ -1,6 +1,6 @@
-package com.nasikkah.application.data.service;
+package com.david.application.data.service;
 
-import com.nasikkah.application.data.entity.SamplePerson;
+import com.david.application.data.entity.SamplePerson;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 

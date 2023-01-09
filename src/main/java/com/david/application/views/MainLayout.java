@@ -1,10 +1,10 @@
-package com.nasikkah.application.views;
+package com.david.application.views;
 
 
-import com.nasikkah.application.components.appnav.AppNav;
-import com.nasikkah.application.components.appnav.AppNavItem;
-import com.nasikkah.application.views.masterdetail.MasterDetailView;
-import com.nasikkah.application.views.masterdetail.Profil;
+import com.david.application.components.appnav.AppNav;
+import com.david.application.components.appnav.AppNavItem;
+import com.david.application.views.masterdetail.MasterDetailView;
+import com.david.application.views.masterdetail.Profil;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.applayout.DrawerToggle;
 import com.vaadin.flow.component.html.Footer;

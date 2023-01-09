@@ -1,8 +1,8 @@
-package com.nasikkah.application.views.masterdetail;
+package com.david.application.views.masterdetail;
 
-import com.nasikkah.application.views.MainLayout;
-import com.nasikkah.application.data.entity.SamplePerson;
-import com.nasikkah.application.data.service.SamplePersonService;
+import com.david.application.views.MainLayout;
+import com.david.application.data.entity.SamplePerson;
+import com.david.application.data.service.SamplePersonService;
 import com.vaadin.flow.component.UI;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.button.ButtonVariant;

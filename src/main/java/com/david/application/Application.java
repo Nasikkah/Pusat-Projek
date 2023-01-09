@@ -1,6 +1,6 @@
-package com.nasikkah.application;
+package com.david.application;
 
-import com.nasikkah.application.data.service.SamplePersonRepository;
+import com.david.application.data.service.SamplePersonRepository;
 import com.vaadin.flow.component.dependency.NpmPackage;
 import com.vaadin.flow.component.page.AppShellConfigurator;
 import com.vaadin.flow.theme.Theme;

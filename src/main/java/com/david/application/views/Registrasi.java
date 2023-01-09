@@ -1,4 +1,4 @@
-package com.nasikkah.application.views;
+package com.david.application.views;
 
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;

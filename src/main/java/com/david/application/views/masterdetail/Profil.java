@@ -1,6 +1,6 @@
-package com.nasikkah.application.views.masterdetail;
+package com.david.application.views.masterdetail;
 
-import com.nasikkah.application.views.MainLayout;
+import com.david.application.views.MainLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;
 

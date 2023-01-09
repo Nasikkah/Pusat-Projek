@@ -1,4 +1,4 @@
-package com.nasikkah.application.components.appnav;
+package com.david.application.components.appnav;
 
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.Tag;

@@ -1,4 +1,4 @@
-package com.nasikkah.application.data.entity;
+package com.david.application.data.entity;
 
 import java.time.LocalDate;
 import javax.persistence.Entity;
